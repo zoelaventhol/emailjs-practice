@@ -1,8 +1,14 @@
-# React + Vite
+# EmailJS Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository guides step-by-step how to set up [EmailJS](https://www.emailjs.com/) within a React application.
 
-Currently, two official plugins are available:
+All of this information is sourced from - and can be found in - the [EmailJS Docs](https://www.emailjs.com/docs/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Setup
+- `npm install` to install dependencies
+- `npm run dev` to compile and run locally in your browser
+
+## Step 1: EmailJS Config
+1. Create an account at [EmailJS](https://www.emailjs.com/).
+2. "Create a new service" - basically, connect an email account with EmailJS. You will be prompted to authorize certain permissions to EmailJS from your own email account.
+3. "Create a new template."
